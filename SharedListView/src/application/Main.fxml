@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.ListView?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+	<center>
+		<TabPane>
+			<Tab text="Details">
+				<fx:include source="DetailsTab.fxml" fx:id="details"/>
+			</Tab>
+			<Tab text="Edit">
+				<fx:include source="EditTab.fxml" fx:id="edit"/>
+			</Tab>
+		</TabPane>
+	</center>
+</BorderPane>
+

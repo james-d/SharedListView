@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EditController" spacing="5">
+	<ListView fx:id="listView"/>
+	<VBox  spacing="5">
+		<Button text="delete" fx:id="deleteButton" onAction="#delete" />
+	</VBox>
+</HBox>
+
